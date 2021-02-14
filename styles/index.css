@@ -1,11 +1,13 @@
-*{
+* {
     margin: o;
     padding: 0%;
 }
-a{
-    color:#668cff;
+
+a {
+    color: #668cff;
     text-decoration: none;
 }
+
 .header {
     display: flex;
     flex-direction: row;
@@ -22,37 +24,59 @@ a{
     color: black;
 }
 
-a:hover{
-    color:rgb(255, 51, 153)
+.checked {
+    color: orange;
 }
 
-a:focus{
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+a:hover {
+    color: rgb(255, 51, 153)
+}
+
+a:focus {
     color: #cc9900;
 }
-a:active{
+
+a:active {
     color: #cccc00;
 }
 
-.personal-img{
+.personal-img {
     width: 240px;
     height: 240px;
     border-radius: 5px;
 }
+
 .container {
     padding: 5px;
     display: flex;
-
 }
 
 .post {
     margin: 0 20px;
 }
 
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
@@ -60,39 +84,50 @@ a:active{
     flex-direction: column;
 }
 
-.bg-red{
+.bg-red {
     background-color: red;
 }
-.bg-green{
+
+.bg-green {
     background-color: green;
 }
-.bg-pink{
+
+.bg-pink {
     background-color: pink;
 }
-.bg-navy{
+
+.bg-navy {
     background-color: navy;
 }
+
 .bg-whitesmoke {
     background-color: whitesmoke;
 }
-.bg-teal{
+
+.bg-teal {
     background-color: teal;
 }
-.text-red{
+
+.text-red {
     color: red;
 }
-.text-green{
+
+.text-green {
     color: green;
 }
-.text-pink{
+
+.text-pink {
     color: pink;
 }
-.text-navy{
+
+.text-navy {
     color: navy;
 }
-.text-teal{
+
+.text-teal {
     color: teal;
 }
+
 .absolute {
     position: absolute;
 }
@@ -100,12 +135,15 @@ a:active{
 .text-black {
     color: black;
 }
+
 .text-white {
     color: white;
 }
-.border-2{
+
+.border-2 {
     border: 2px solid black;
 }
+
 .m-2 {
     margin: 2px;
 }
@@ -125,7 +163,8 @@ a:active{
 .w-30 {
     width: 300px;
 }
-.w-50{
+
+.w-50 {
     width: 500px;
 }
 
@@ -133,11 +172,11 @@ a:active{
     width: 100%;
 }
 
-.h-10{
+.h-10 {
     height: 10px;
 }
 
-.h-20{
+.h-20 {
     height: 20px;
 }
 
@@ -152,30 +191,39 @@ a:active{
 .h-full {
     height: 100%;
 }
-.font-100{
+
+.font-100 {
     font-weight: 100;
 }
-.font-200{
+
+.font-200 {
     font-weight: 200;
 }
-.font-300{
+
+.font-300 {
     font-weight: 300;
 }
-.font-400{
+
+.font-400 {
     font-weight: 400;
 }
-.font-500{
+
+.font-500 {
     font-weight: 500;
 }
-.font-600{
+
+.font-600 {
     font-weight: 600;
 }
-.font-700{
+
+.font-700 {
     font-weight: 700;
 }
-.font-800{
+
+.font-800 {
     font-weight: 800;
 }
-.font-900{
+
+.font-900 {
     font-weight: 900;
 }
