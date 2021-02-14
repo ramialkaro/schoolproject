@@ -33,6 +33,14 @@ a {
     height: 70vh;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
