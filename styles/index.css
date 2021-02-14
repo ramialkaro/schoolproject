@@ -1,0 +1,146 @@
+*{
+    margin: o;
+    padding: 0%;
+}
+a{
+    color:#668cff;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+    height: 5vh;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+.header li {
+    list-style: none;
+    color: black;
+}
+
+a:hover{
+    color:rgb(255, 51, 153)
+}
+
+a:focus{
+    color: #cc9900;
+}
+a:active{
+    color: #cccc00;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-pink{
+    background-color: pink;
+}
+.bg-navy{
+    background-color: navy;
+}
+.bg-teal{
+    background-color: teal;
+}
+.text-red{
+    color: red;
+}
+.text-green{
+    color: green;
+}
+.text-pink{
+    color: pink;
+}
+.text-navy{
+    color: navy;
+}
+.text-teal{
+    color: teal;
+}
+.absolute {
+    position: absolute;
+}
+
+.text-black {
+    color: black;
+}
+.text-white {
+    color: white;
+}
+.border-2{
+    border: 2px solid black;
+}
+.m-2 {
+    margin: 2px;
+}
+
+.m-4 {
+    margin: 4px;
+}
+
+.w-30 {
+    width: 300px;
+}
+.w-50{
+    width: 500px;
+}
+
+.h-10{
+    height: 10px;
+}
+
+.h-20{
+    height: 20px;
+}
+
+.h-30 {
+    height: 30px;
+}
+
+.h-50 {
+    height: 50px;
+}
+.font-100{
+    font-weight: 100;
+}
+.font-200{
+    font-weight: 200;
+}
+.font-300{
+    font-weight: 300;
+}
+.font-400{
+    font-weight: 400;
+}
+.font-500{
+    font-weight: 500;
+}
+.font-600{
+    font-weight: 600;
+}
+.font-700{
+    font-weight: 700;
+}
+.font-800{
+    font-weight: 800;
+}
+.font-900{
+    font-weight: 900;
+}
