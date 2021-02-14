@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Developing modren web platforms using HTML, CSS & JS">
@@ -6,9 +7,12 @@
     <meta name="author" content="Rami Al-Karo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/simple-slideshow-styles.css">
+
 
     <title>Rami Al-Karo | Gallery</title>
 </head>
+
 <body>
     <nav>
         <ul class="header">
@@ -20,5 +24,44 @@
             <li><a href="education.html">Education history </a></li>
         </ul>
     </nav>
-    
+
+    <main class="gallery-container">
+        <div class="bss-slides num2 " tabindex="2" autofocus="autofocus">
+            <figure class="bass-show">
+                <img src="./images/1.jpg" width="100%" />
+                <figcaption>"Music" by <a href="https://unsplash.com/photos/DBGwy7s3QY0">Bruce Mars</a>.</figcaption>
+            </figure>
+            <figure class="bass-show">
+                <img src="./images/2.jpg" width="100%" />
+                <figcaption>"Nature" by <a href="https://unsplash.com/photos/jFCViYFYcus">Lukasz Szmigiel</a>.</figcaption>
+            </figure>
+            <figure class="bass-show">
+                <img src="./images/3.jpg" width="100%" />
+                <figcaption>"Developer" by <a href="https://unsplash.com/photos/k-rKfqSm4L4">Nathan da Silva</a>.</figcaption>
+            </figure>
+            <figure class="bass-show">
+                <img src="./images/4.jpg" width="100%" />
+                <figcaption>"Nature" by <a href="https://unsplash.com/photos/01_igFr7hd4">Qingbao Meng</a>.</figcaption>
+            </figure>
+            <figure class="bass-show">
+                <img src="./images/5.jpg" width="100%" />
+                <figcaption>"Green Bird" by <a href="https://unsplash.com/photos/Ge9F2A9RTqc">Rod Long</a>.</figcaption>
+            </figure>
+            <figure class="bass-show">
+                <img src="./images/6.jpg" width="100%" />
+                <figcaption>"Road's signs" by <a href="https://unsplash.com/photos/Y4EQtlfOLm4">Sangga Rima Roman Selia</a>.</figcaption>
+            </figure>
+        </div>
+    </main>
+    <script src="./JS/better-simple-slideshow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous"></script>
+    <script src="./JS/better-simple-slideshow.js"></script>
+    <script>
+        var opts = {
+            auto: true,
+            fullScreen: true,
+            swipe: false
+        };
+        makeBSS('.num2', opts);
+    </script>
 </body>
