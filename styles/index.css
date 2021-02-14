@@ -10,10 +10,11 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 5px;
-    height: 5vh;
+    padding: 5px 10px;
+    height: 4vh;
     align-items: center;
     background-color: rgb(240, 240, 240);
+    border-radius: 4px;
 }
 
 .header li {
@@ -30,6 +31,21 @@ a:focus{
 }
 a:active{
     color: #cccc00;
+}
+
+.personal-img{
+    width: 240px;
+    height: 240px;
+    border-radius: 5px;
+}
+.container {
+    padding: 5px;
+    display: flex;
+
+}
+
+.post {
+    margin: 0 20px;
 }
 
 .d-flex{
@@ -55,6 +71,9 @@ a:active{
 }
 .bg-navy{
     background-color: navy;
+}
+.bg-whitesmoke {
+    background-color: whitesmoke;
 }
 .bg-teal{
     background-color: teal;
@@ -95,11 +114,23 @@ a:active{
     margin: 4px;
 }
 
+.p-2 {
+    padding: 2px;
+}
+
+.p-4 {
+    padding: 4px;
+}
+
 .w-30 {
     width: 300px;
 }
 .w-50{
     width: 500px;
+}
+
+.w-full {
+    width: 100%;
 }
 
 .h-10{
@@ -116,6 +147,10 @@ a:active{
 
 .h-50 {
     height: 50px;
+}
+
+.h-full {
+    height: 100%;
 }
 .font-100{
     font-weight: 100;
