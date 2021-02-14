@@ -24,6 +24,12 @@ a {
     color: black;
 }
 
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .checked {
     color: orange;
 }
