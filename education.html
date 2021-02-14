@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Developing modren web platforms using HTML, CSS & JS">
@@ -6,9 +7,13 @@
     <meta name="author" content="Rami Al-Karo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet/less" type="text/css" href="./styles/timeline.less" />
+    <script src="//cdn.jsdelivr.net/npm/less"></script>
 
     <title>Education</title>
 </head>
+
 <body>
     <nav>
         <ul class="header">
@@ -20,5 +25,35 @@
             <li><a href="education.html">Education history </a></li>
         </ul>
     </nav>
-    
+    <main>
+        <div id="content">
+            <h1>Education Timeline</h1>
+
+            <ul class="timeline">
+                <li class="event" data-date="2020 - 2021">
+                    <h3 aria-details="metropolia university">Metropolia UAS</h3>
+                    <p>Information and communication technologies</p>
+                </li>
+
+                <li class="event" data-date="2019 - 2020">
+                    <h3 aria-details="omnia school">Omnia</h3>
+                    <p>Information technologies</p>
+
+                </li>
+
+                <li class="event" data-date="2010 - 2014">
+                    <h3 aria-details="mosul university">Mosul university</h3>
+                    <p>Information technologies</p>
+
+                </li>
+
+                <li class="event" data-date="2008 - 2010">
+                    <h3 aria-details="al-sharqia high school">Al-Sharqia</h3>
+                    <p>High school</p>
+
+                </li>
+
+            </ul>
+        </div>
+    </main>
 </body>
