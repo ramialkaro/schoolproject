@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Developing modren web platforms using HTML, CSS & JS">
@@ -6,9 +7,20 @@
     <meta name="author" content="Rami Al-Karo">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/index.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rami Al-Karo | Contact me</title>
+    <style>
+        input,
+        textarea,
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
+
 <body>
     <nav>
         <ul class="header">
@@ -20,5 +32,66 @@
             <li><a href="education.html">Education history </a></li>
         </ul>
     </nav>
-    
+
+    <main class="container d-flex col">
+        <article>
+            <h2>Linkedin and personal Website</h2>
+            <div class="w-full d-flex justify-between bg-whitesmoke p-4">
+                <div>
+
+                    <a href=" https://www.linkedin.com/in/rami-al-karo-aab545171/?originalSubdomain=fi" class="d-flex col align-center">
+                        <img style="width: 50px;" src="./images/link-black-18dp.svg" /> Linkedin
+                    </a>
+
+                </div>
+                <div>
+
+                    <a href="https://ramialkaro.fi" class="d-flex col align-center">
+                        <img style="width: 50px;" src="./images/web-24px.svg" /> Personal Website
+                    </a>
+
+                </div>
+
+
+            </div>
+        </article>
+        <hr>
+        <form class="d-flex col m-4 ">
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" maxlength="25" id="firstname" required>
+            </div>
+            <div>
+                <label for="lastname">Last name</label>
+                <input type="text" name="lastname" maxlength="25" id="lastname" required>
+            </div>
+            <div>
+                <label for="gender">Gender</label>
+                <select required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div>
+                <label for="age">Age:</label>
+                <input type="number" name="age" maxlength="2" min="18" max="100" id="age" required>
+            </div>
+            <div>
+                <label for="website">Website</label>
+                <input type="url" name="website" maxlength="50" id="website" required>
+            </div>
+            <div>
+                <label for="firstname">First name</label>
+                <input type="text" name="firstname" maxlength="25" id="firstname" required>
+            </div>
+            <div>
+                <label for="comment">Comment</label>
+                <textarea name="comment" rows="4" cols="50" id="comment" required></textarea>
+            </div>
+            <div>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+
 </body>

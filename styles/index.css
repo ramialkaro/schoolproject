@@ -47,6 +47,10 @@ a {
     justify-content: center;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -179,12 +183,24 @@ a:active {
     padding: 4px;
 }
 
+.w-20 {
+    width: 200px;
+}
+
 .w-30 {
     width: 300px;
 }
 
 .w-50 {
     width: 500px;
+}
+
+.w-60 {
+    width: 600px;
+}
+
+.w-70 {
+    width: 700px;
 }
 
 .w-full {
